@@ -11,9 +11,11 @@
         android:layout_width="63dp"
         android:layout_height="70dp"
         android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:layout_marginStart="21dp"
-        app:srcCompat="@drawable/id" />
+        android:layout_marginLeft="21dp"
+        app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:id="@+id/textView7"
@@ -21,6 +23,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toEndOf="@+id/imageView11"
+        android:layout_toRightOf="@id/imageView11"
         android:text="User 1"
         android:textSize="18sp" />
 </RelativeLayout>
